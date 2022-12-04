@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Poppins&display=swap');
+
+html {
+    font-size: 1vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(9, 9, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#div-base {
+    background-color: rgb(141, 141, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5vmin;
+}
+
+#div-base h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#div-base button {
+    margin: 0vmin 13vmin;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: all 400ms ease;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1.5vmin;
+    padding: 1.5vmin 3vmin;
+    background: rgb(0, 32, 190);
+}
+
+#div-base button:hover {
+    background: rgb(83, 86, 251);
+    color: #fff;
+}
+
+#div-base button:active {
+    background: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+}
